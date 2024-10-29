@@ -29,12 +29,8 @@ body {
   border: 1px solid lightgrey;
 }
 
-  
 .header-logo {
   transform: scale(0.95);
-  
-
-
 }
 
 .header-welcome {
@@ -43,11 +39,15 @@ body {
 }
 
 .cards {
+  display: table;
   margin: 30px;
   width: 240px;
+  border-spacing: 20px;
 }
 
 .card-image {
+  display: table-cell;
+  margin: 30px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
